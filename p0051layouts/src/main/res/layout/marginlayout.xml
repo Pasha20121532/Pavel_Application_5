@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:orientation="vertical">
+    <TableLayout android:layout_width="match_parent" android:layout_height="match_parent" tools:ignore="UselessParent">
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button android:text="Button" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/button9" tools:ignore="ButtonStyle,HardcodedText"/>
+            <Button android:text="Button" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/button10" tools:ignore="ButtonStyle,HardcodedText"/>
+            <Button android:text="Button" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/button11" tools:ignore="ButtonStyle,HardcodedText"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button android:text="Button" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/button12" tools:ignore="ButtonStyle,HardcodedText"/>
+            <Button android:text="Button" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/button13" tools:ignore="ButtonStyle,HardcodedText"
+                    android:layout_marginRight="30dp" android:layout_marginBottom="40dp"/>
+            <Button android:text="Button" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/button14" tools:ignore="ButtonStyle,HardcodedText"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button android:text="Button" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/button15" tools:ignore="ButtonStyle,HardcodedText"/>
+            <Button android:text="Button" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/button16" tools:ignore="ButtonStyle,HardcodedText"/>
+            <Button android:text="Button" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/button17" tools:ignore="ButtonStyle,HardcodedText"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
